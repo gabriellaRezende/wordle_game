@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environment
+.venv/
+
+# VS Code
+.vscode/
+
+# Outputs
+wordle_scores.xlsx
+scores/
+
