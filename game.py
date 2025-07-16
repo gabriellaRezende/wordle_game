@@ -67,7 +67,7 @@ def feedback(palpite, alvo):
     return s
 
 # Função principal de jogo (guilherme carmo)
-def play_wordle(palavra, game_num, scores):
+def play_wordle(player, palavra, game_num, scores):
     """
     Executa uma partida de Wordle.
     Retorna True se o jogador ganhou, False caso contrário, e o número de tentativas.
@@ -153,7 +153,7 @@ def main():
         choice = input("Escolha uma opção: ")
 
         if choice == '1':
-            play_wordle(palavra, game_num, scores)
+            play_wordle(player, palavra, game_num, scores)
             game_num += 1
         elif choice == '2':
             export_to_excel(scores)
