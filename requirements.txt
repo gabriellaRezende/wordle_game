@@ -1,3 +1,6 @@
+# Documento para listar as dependências do projeto
+# Este ficheiro é usado pelo pip para instalar as bibliotecas necessárias
+
 et_xmlfile==2.0.0
 numpy==2.3.1
 openpyxl==3.1.5
